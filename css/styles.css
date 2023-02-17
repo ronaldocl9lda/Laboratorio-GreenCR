@@ -66,16 +66,23 @@ main {
 
 p {
     text-align: justify;
+    line-height: 25px;
+    margin-bottom: 20px;
 }
 
 #pricipalcontent {
+    float: left;
     width: 200px;
     background-color: white;
     margin: 20px;
 }
 
-#secondarycontent {
-    float: right;
+#articulo-principal h2 {
+    color: green;
+}
+
+#articulo-principal img {
+    margin: 5px;
 }
 
 #articulo-principal {
